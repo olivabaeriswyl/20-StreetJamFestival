@@ -17,8 +17,8 @@ header {
 }
 
 h1 {
-  font-family: 'Vina Sans', cursive;
-  text-transform: capitalize;
+  font-family: 'Paytone One', sans-serif;
+  text-transform: uppercase;
   letter-spacing: 2px;
 }
 
@@ -55,6 +55,10 @@ h1, p, a {
   padding: 0 15px;
 }
 
+main {
+  background: white;
+}
+
 .container-title {
   display: flex;
 }
@@ -85,4 +89,12 @@ h1, p, a {
 
 .white-part {
   color: #ddd;
+}
+
+footer {
+  background: #1e1e1e;
+}
+
+footer a img {
+  max-width: 28px;
 }
