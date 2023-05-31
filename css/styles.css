@@ -2,9 +2,55 @@ body {
   max-width: 320px;
   margin: auto;
   background: #ddd;
+  font-family: 'Poppins', sans-serif;
 }
 
 img {
   display: block;
   max-width: 100%;
 }
+
+header {
+  background: #1e1e1e;
+  color: #ddd;
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-family: 'Vina Sans', cursive;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+header h1 {
+  font-size: 38px;
+  margin-top: 15px;
+}
+
+header a {
+  color: #ddd;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 24px;
+}
+
+.decoration {
+  max-width: 180px;
+}
+
+.container-header {
+  display: flex;
+}
+
+.container-navigation {
+  display: flex;
+}
+
+h1, p, a {
+  padding: 0 15px;
+}
+
