@@ -23,11 +23,12 @@ h1 {
 }
 
 header h1 {
-  font-size: 38px;
+  font-size: 36px;
   margin-top: 15px;
 }
 
 header a {
+  font-size: 18px;
   color: #ddd;
   font-weight: 600;
 }
@@ -54,3 +55,34 @@ h1, p, a {
   padding: 0 15px;
 }
 
+.container-title {
+  display: flex;
+}
+
+.container-title img {
+  max-width: 140px;
+}
+
+.red-part {
+  color: #d14646;
+}
+
+.blue-part {
+  color: #3f67de;
+}
+
+.green-part {
+  color: #669933;
+}
+
+.purple-part {
+  color: #a62f94;
+}
+
+.yellow-part {
+  color: #cc9900;
+}
+
+.white-part {
+  color: #ddd;
+}
