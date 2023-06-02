@@ -28,7 +28,6 @@ header {
 }
 
 .logo {
-  font-size: 34px;
   margin-top: 0;
   line-height: 26px;
 }
@@ -47,6 +46,7 @@ header a {
 
 h1 {
   font-family: 'Vina Sans', cursive;
+  font-size: 35px;
   letter-spacing: 1px;
   margin: 0;
   font-weight: 400;
