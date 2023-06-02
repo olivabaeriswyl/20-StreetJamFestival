@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 320px;
   margin: auto;
@@ -16,15 +20,23 @@ header {
   padding-bottom: 30px;
 }
 
-h1 {
-  font-family: 'Paytone One', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+.container-header {
+  display: flex;
+  align-items: start;
+  margin-bottom: 40px;
+  margin-top: 15px;
 }
 
-header h1 {
-  font-size: 36px;
-  margin-top: 15px;
+.logo {
+  font-size: 34px;
+  margin-top: 0;
+  line-height: 30px;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 0;
 }
 
 header a {
@@ -33,22 +45,25 @@ header a {
   font-weight: 600;
 }
 
-.subtitle {
-  font-weight: 600;
+h1 {
+  font-family: 'Vina Sans', cursive;
+  letter-spacing: 1px;
+  margin: 0;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+p {
   font-size: 16px;
-  margin-top: 24px;
 }
 
 .decoration {
   max-width: 180px;
 }
 
-.container-header {
-  display: flex;
-}
-
 .container-navigation {
   display: flex;
+  margin-bottom: 10px;
 }
 
 h1, p, a {
@@ -57,10 +72,12 @@ h1, p, a {
 
 main {
   background: white;
+  padding-top: 60px;
 }
 
 .container-title {
   display: flex;
+  margin-bottom: 30px;
 }
 
 .container-title img {
