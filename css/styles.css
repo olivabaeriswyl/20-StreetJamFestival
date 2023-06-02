@@ -17,13 +17,13 @@ img {
 header {
   background: #1e1e1e;
   color: #ddd;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 .container-header {
   display: flex;
   align-items: start;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   margin-top: 15px;
 }
 
@@ -67,7 +67,7 @@ p {
 }
 
 h1, p, a {
-  padding: 0 15px;
+  margin: 0 15px;
 }
 
 main {
@@ -78,10 +78,15 @@ main {
 .container-title {
   display: flex;
   margin-bottom: 30px;
+  margin-top: 60px;
 }
 
 .container-title img {
   max-width: 140px;
+}
+
+.red-part .container-title {
+  margin-top: 0;
 }
 
 .red-part {
@@ -106,6 +111,19 @@ main {
 
 .white-part {
   color: #ddd;
+}
+
+.picture {
+  max-width: 250px;
+  margin: 20px 0 40px 0;
+}
+
+.picture-right {
+  float: right;
+}
+
+ul {
+  list-style-position: outside;
 }
 
 footer {
