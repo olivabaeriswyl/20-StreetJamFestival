@@ -30,7 +30,7 @@ header {
 .logo {
   font-size: 34px;
   margin-top: 0;
-  line-height: 30px;
+  line-height: 26px;
 }
 
 .subtitle {
@@ -73,6 +73,7 @@ h1, p, a {
 main {
   background: white;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .container-title {
@@ -109,13 +110,17 @@ main {
   color: #cc9900;
 }
 
-.white-part {
-  color: #ddd;
+.white-part .container-title  {
+  margin-top: 0;
 }
 
 .picture {
   max-width: 250px;
-  margin: 20px 0 40px 0;
+  margin-bottom: 40px;
+}
+
+p {
+  margin-bottom: 20px;
 }
 
 .picture-right {
@@ -128,8 +133,24 @@ ul {
 
 footer {
   background: #1e1e1e;
+  padding-top: 40px;
+  color: #ffffff;
+}
+
+footer a {
+  color: #ffffff;
 }
 
 footer a img {
   max-width: 28px;
+  float: right;
+  margin: 0 15px;
+}
+
+.footer-end {
+  background-image: url(../img/provocative-graffiti.jpg);
+  background-size: cover;
+  background-color: #1e1e1e;
+  padding: 70px 0 15px 190px;
+  margin-top: 15px;
 }
