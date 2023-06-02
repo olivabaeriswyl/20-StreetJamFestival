@@ -125,6 +125,7 @@ p {
 
 .picture-right {
   float: right;
+  clear: both;
 }
 
 ul {
